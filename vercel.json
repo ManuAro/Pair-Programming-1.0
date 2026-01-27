@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "buildCommand": null,
+  "outputDirectory": "workspace/src/landing",
+  "cleanUrls": true,
+  "trailingSlash": false
+}
