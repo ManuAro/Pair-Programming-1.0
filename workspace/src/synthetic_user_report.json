@@ -1,0 +1,229 @@
+{
+  "startedAt": "2026-01-27T22:49:02.614Z",
+  "baseUrl": "http://localhost:3001",
+  "contractorsRequested": 10,
+  "steps": {
+    "onboarded": 10,
+    "verified_identity": 10,
+    "failed_identity": 0,
+    "verified_github": 9,
+    "failed_github": 1,
+    "verified_linkedin": 4,
+    "failed_linkedin": 6,
+    "verified_background_check": 7,
+    "failed_background_check": 3,
+    "verified_reference": 12,
+    "failed_reference": 8,
+    "credentials_issued": 10,
+    "credentials_failed": 0,
+    "credentials_verified": 10
+  },
+  "contractors": [
+    {
+      "contractorId": "462bf47d-6ad9-4e71-aa94-ecb647961852",
+      "verificationResults": {
+        "identity": true,
+        "github": true,
+        "linkedin": true,
+        "background_check": true
+      },
+      "referenceResults": [
+        true,
+        true
+      ],
+      "credentialResult": {
+        "issued": true,
+        "tier": "FULL_CLEARANCE",
+        "credentialId": "50028d2f-9ff6-43f6-b7c1-776116b06622",
+        "verifyOk": true,
+        "error": null
+      }
+    },
+    {
+      "contractorId": "883bd5d8-d0cc-4eca-a774-570a6e1dfa60",
+      "verificationResults": {
+        "identity": true,
+        "github": true,
+        "linkedin": false,
+        "background_check": false
+      },
+      "referenceResults": [
+        true,
+        true
+      ],
+      "credentialResult": {
+        "issued": true,
+        "tier": "PROVISIONAL",
+        "credentialId": "3927ce17-81bc-4971-af51-83558bb15eef",
+        "verifyOk": true,
+        "error": null
+      }
+    },
+    {
+      "contractorId": "974563f1-1a5f-4237-a0a5-0027a973e914",
+      "verificationResults": {
+        "identity": true,
+        "github": true,
+        "linkedin": true,
+        "background_check": true
+      },
+      "referenceResults": [
+        true,
+        false
+      ],
+      "credentialResult": {
+        "issued": true,
+        "tier": "PROVISIONAL",
+        "credentialId": "a2c56fe9-fd6e-472d-9165-dc0aad63d426",
+        "verifyOk": true,
+        "error": null
+      }
+    },
+    {
+      "contractorId": "490ce043-5ddd-4d3e-a0b6-ea5ffe3c49a0",
+      "verificationResults": {
+        "identity": true,
+        "github": false,
+        "linkedin": false,
+        "background_check": false
+      },
+      "referenceResults": [
+        false,
+        false
+      ],
+      "credentialResult": {
+        "issued": true,
+        "tier": "PROVISIONAL",
+        "credentialId": "bce1fce9-c265-4baa-9ba2-c26ddd6b0189",
+        "verifyOk": true,
+        "error": null
+      }
+    },
+    {
+      "contractorId": "7f64c1b7-0a2a-4c67-ade5-b0b709027699",
+      "verificationResults": {
+        "identity": true,
+        "github": true,
+        "linkedin": false,
+        "background_check": true
+      },
+      "referenceResults": [
+        false,
+        false
+      ],
+      "credentialResult": {
+        "issued": true,
+        "tier": "PROVISIONAL",
+        "credentialId": "ae59ae01-835d-4f47-a778-64e9a2ee9d08",
+        "verifyOk": true,
+        "error": null
+      }
+    },
+    {
+      "contractorId": "9b66935d-ad3c-41a4-9966-e48da4e888ca",
+      "verificationResults": {
+        "identity": true,
+        "github": true,
+        "linkedin": false,
+        "background_check": true
+      },
+      "referenceResults": [
+        true,
+        true
+      ],
+      "credentialResult": {
+        "issued": true,
+        "tier": "PROVISIONAL",
+        "credentialId": "1fbb87dc-4159-418b-a6ae-8f63e28eb9f0",
+        "verifyOk": true,
+        "error": null
+      }
+    },
+    {
+      "contractorId": "027c945b-f646-4d94-b4a1-0997409b94dc",
+      "verificationResults": {
+        "identity": true,
+        "github": true,
+        "linkedin": true,
+        "background_check": true
+      },
+      "referenceResults": [
+        true,
+        true
+      ],
+      "credentialResult": {
+        "issued": true,
+        "tier": "FULL_CLEARANCE",
+        "credentialId": "89762bad-5f4a-465c-be95-84e2927e8b8d",
+        "verifyOk": true,
+        "error": null
+      }
+    },
+    {
+      "contractorId": "d22d5065-2cd2-4576-9860-9c8f26009337",
+      "verificationResults": {
+        "identity": true,
+        "github": true,
+        "linkedin": false,
+        "background_check": true
+      },
+      "referenceResults": [
+        true,
+        true
+      ],
+      "credentialResult": {
+        "issued": true,
+        "tier": "PROVISIONAL",
+        "credentialId": "00175b62-7067-4d73-ada1-0deadaf0c3df",
+        "verifyOk": true,
+        "error": null
+      }
+    },
+    {
+      "contractorId": "f8900674-0f83-4a86-a4aa-c694f4b954f8",
+      "verificationResults": {
+        "identity": true,
+        "github": true,
+        "linkedin": true,
+        "background_check": true
+      },
+      "referenceResults": [
+        false,
+        false
+      ],
+      "credentialResult": {
+        "issued": true,
+        "tier": "PROVISIONAL",
+        "credentialId": "d83cbdd9-3bbb-4d0a-9f27-39a6c9ce7893",
+        "verifyOk": true,
+        "error": null
+      }
+    },
+    {
+      "contractorId": "1f1d9d1a-cf09-4cb9-865a-ea1fe244d20a",
+      "verificationResults": {
+        "identity": true,
+        "github": true,
+        "linkedin": false,
+        "background_check": false
+      },
+      "referenceResults": [
+        true,
+        false
+      ],
+      "credentialResult": {
+        "issued": true,
+        "tier": "PROVISIONAL",
+        "credentialId": "ba3332d8-8b71-4c0e-9dfa-0966d47dfcb6",
+        "verifyOk": true,
+        "error": null
+      }
+    }
+  ],
+  "summary": {
+    "provisionalRate": 0.8,
+    "fullClearanceRate": 0.2,
+    "credentialIssueRate": 1
+  },
+  "completedAt": "2026-01-27T22:49:03.979Z"
+}
