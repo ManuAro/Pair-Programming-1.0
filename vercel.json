@@ -1,7 +1,15 @@
 {
   "version": 2,
-  "buildCommand": null,
-  "outputDirectory": "workspace/src/landing",
-  "cleanUrls": true,
-  "trailingSlash": false
+  "builds": [
+    {
+      "src": "workspace/src/landing/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/workspace/src/landing/$1"
+    }
+  ]
 }
