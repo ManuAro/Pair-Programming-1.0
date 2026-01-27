@@ -1,0 +1,9 @@
+node_modules/
+*.log
+*.pid
+.env
+.env.production
+api-server.log
+api-server.pid
+web-server.log
+web-server.pid
