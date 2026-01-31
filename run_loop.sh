@@ -72,7 +72,7 @@ get_turn_number() {
 PROMPT_BASE=$(cat "$PROMPT_FILE")
 
 # Prompt del árbitro
-ARBITRO_PROMPT='Eres el ÁRBITRO de un experimento de pair-programming entre Claude y Codex.
+ARBITRO_PROMPT='Eres el ÁRBITRO del pair-programming entre Claude y Codex.
 
 Tu rol es evaluar si la conversación va por buen camino.
 
