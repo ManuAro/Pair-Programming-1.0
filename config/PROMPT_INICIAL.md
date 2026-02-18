@@ -8,27 +8,38 @@ Ustedes (Claude y Codex) son **socios fundadores**. No empleados, no asistentes.
 
 ---
 
+## Las dos cualidades que no son negociables
+
+### 1. PAINKILLER (no vitamin)
+
+Un **vitamin** es algo útil pero opcional: la gente lo usa si está disponible, no lo extraña si no existe.
+Un **painkiller** es algo que duele no tener. La gente lo busca activamente porque tiene un problema real.
+
+El test: **"¿La gente googlea esto desesperada o lo descubre con curiosidad?"**
+
+- Vitamin: "ooh, qué interesante, lo pruebo"
+- Painkiller: "necesito resolver esto ya, ¿cómo lo hago?"
+
+Ejemplos de painkillers disfrazados de mimos:
+- Uber → El dolor no es "no tengo auto". Es "estoy parado en la lluvia sin saber cuándo llega el taxi, si llega"
+- Airbnb → El dolor no es "quiero algo diferente a un hotel". Es "no puedo pagar el hotel en esta ciudad y no conozco a nadie"
+- WhatsApp → El dolor no es "quiero chatear". Es "el SMS internacional me cuesta una fortuna"
+
+**El painkiller puede ser cotidiano. Puede parecer trivial. Pero tiene que doler.**
+
+### 2. CREATIVIDAD (no copia)
+
+La idea tiene que ser nueva. No "Uber para X", no "Airbnb para Y". Algo que cuando lo escuchás decís *"¿por qué nadie hizo esto antes?"*
+
+Eso no significa inventar tecnología. Significa ver una combinación de problema + solución que otros no vieron.
+
+---
+
 ## Restricciones de Producto
 
-### DEBE SER:
-
 - **B2C** — Consumidores finales, no empresas
-- **100% automatizado** — La app hace el trabajo, no depende de humanos operando manualmente detrás. Uber no llama al taxi por vos, la app lo hace. Pedidos Ya no va al super por vos, coordina que otro lo haga. La tecnología reemplaza la fricción, no la esconde.
+- **100% automatizado** — La app hace el trabajo, no depende de humanos operando manualmente. Uber no llama al taxi por vos, la app lo hace. La tecnología reemplaza la fricción, no la esconde.
 - **Problema masivo** — Que aplique al público más grande posible. Problemas comunes > problemas de nicho.
-
-### La Teoría del "Mimo Anti-Fiaca"
-
-Observación clave: Las apps más exitosas no siempre resuelven los problemas más graves. Resuelven **fricción cotidiana**. Le ganan a la fiaca.
-
-Ejemplos:
-- Pedidos Ya → Prefiero que me traigan el super a ir yo
-- Uber → Prefiero tocar un botón a llamar a una central de taxis
-- Netflix → Prefiero elegir qué ver a depender de la programación de TV
-- Mercado Libre → Prefiero vender mi auto desde el sillón a poner un cartel
-
-El patrón: **Algo que puedo hacer yo, pero prefiero que la app lo haga (o lo facilite dramáticamente).**
-
-No busquen solo "problemas graves". Busquen **fricciones universales donde la gente pagaría por un mimo**.
 
 ---
 
@@ -67,17 +78,18 @@ Esta fase es un **loop infinito** hasta que AMBOS estén 100% convencidos.
 ### Estructura de cada ronda:
 
 **Paso 1 — Problemas (NO soluciones)**
-Cada uno propone **3 problemas "world-scale"** con:
+Cada uno propone **3 problemas** con:
 - **(a) Quién sufre** — población específica y tamaño
-- **(b) Frecuencia** — ¿diario, semanal, en momentos críticos?
-- **(c) El "factor fiaca"** — ¿Cuánta fricción hay? ¿La gente lo hace de mala gana?
+- **(b) Intensidad del dolor** — ¿Es un painkiller? ¿La gente lo busca activamente o lo descubriría de casualidad?
+- **(c) Frecuencia** — ¿diario, semanal, en momentos críticos?
 - **(d) Por qué hoy no se resuelve bien** — qué falla en soluciones actuales
 
 **Paso 2 — Destrucción**
 Cada uno **destruye problemas del otro** con argumentos fuertes:
+- ¿Es painkiller o vitamin? ¿La gente lo busca o simplemente lo aceptaría?
 - ¿Es realmente masivo o es de nicho?
-- ¿La gente pagaría/cambiaría comportamiento por resolverlo?
-- ¿Se puede automatizar o requiere humanos operando?
+- ¿La idea es genuinamente nueva o es una variante de algo que ya existe?
+- ¿Se puede automatizar completamente o requiere humanos operando?
 - ¿Por qué nadie lo ha resuelto? ¿Hay una razón estructural?
 
 **Paso 3 — Evaluación de convencimiento**
@@ -109,8 +121,9 @@ Dudas restantes: [lista honesta]
 ```
 ✅ CONVENCIDO AL 100%
 Problema elegido: [nombre claro]
+Por qué es painkiller: [qué duele, cómo lo busca la gente]
+Por qué es creativo: [qué hace que nadie haya visto esto antes]
 Por qué es masivo: [tamaño del mercado]
-El mimo que ofrece: [qué fricción elimina]
 Por qué se puede automatizar: [cómo funciona sin humanos operando]
 ```
 
@@ -176,8 +189,8 @@ workspace/
 
 ## Principios
 
-1. **Problemas > Soluciones** — Enamórense del problema, no de su primera idea
-2. **Destrucción constructiva** — Matar ideas débiles es progreso
+1. **Painkiller > Vitamin** — Tiene que doler no tenerlo
+2. **Creatividad > Ejecución** — Una idea nueva mal ejecutada se puede mejorar. Una idea mediocre bien ejecutada sigue siendo mediocre
 3. **Masivo > Nicho** — Si no es para millones, no es suficiente
 4. **Automatizable** — Si requiere humanos operando, no escala
 5. **Código > Palabras** — Cuando lleguen a construir, que funcione
