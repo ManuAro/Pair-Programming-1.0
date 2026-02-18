@@ -150,7 +150,7 @@ run_claude_turn() {
     local PROMPT=$(build_prompt "Claude" "$TURN_NUMBER")
 
     cd "$SCRIPT_DIR"
-    claude -p "$PROMPT" --dangerously-skip-permissions
+    claude -p "$PROMPT" --dangerously-skip-permissions --model claude-sonnet-4-5-20250929
 
     echo -e "${GREEN}✅ Claude completó su turno${NC}"
 }
@@ -190,7 +190,7 @@ $CONVERSACION"
 
     # Usar Claude como árbitro (más analítico)
     cd "$SCRIPT_DIR"
-    local VEREDICTO=$(claude -p "$PROMPT" --dangerously-skip-permissions 2>&1)
+    local VEREDICTO=$(claude -p "$PROMPT" --dangerously-skip-permissions --model claude-haiku-4-5-20251001 2>&1)
 
     echo -e "${MAGENTA}$VEREDICTO${NC}"
 
